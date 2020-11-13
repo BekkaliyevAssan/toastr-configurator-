@@ -1,0 +1,5 @@
+<div class="wrapper" [ngStyle]="{'border-color': (content.status_ == 'success') ? 'blue' : 'red'}">
+    <div class="close" *ngIf="content.allowClose" (click)="onClose(content.title_)">close</div>
+    <div class="title" *ngIf="content.showTitle_">{{content.title_}}</div>
+    <div class="content">{{content.content_}}</div>
+</div>

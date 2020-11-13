@@ -1,0 +1,25 @@
+.wrapper {
+    height: 40px;
+    border-radius: 5px;
+    display: inline-flex;
+    line-height: 16px;
+    align-items: center;
+    padding: 0 2rem;
+    border: 1px solid #000;
+    grid-gap: 0.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-box-shadow:inset 0px 0px 0px 1px #000;
+    -moz-box-shadow:inset 0px 0px 0px 1px #000;
+    box-shadow:inset 0px 0px 0px 1px #000;
+}
+.wrapper:hover {
+    background: #f0f0f0;
+    transition: 0.2s;
+}
+.wrapper:active {
+    -webkit-box-shadow:inset 0px 0px 0px 2px #000;
+    -moz-box-shadow:inset 0px 0px 0px 2px #000;
+    box-shadow:inset 0px 0px 0px 2px #000;
+    transition: 0.2s;
+}

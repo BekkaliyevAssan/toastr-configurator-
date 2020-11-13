@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+    min-width: 150px;
+    max-width: 300px;
+    position: relative;
+    margin-top: 1rem;
+    background: #fff;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    padding-right: 50px;
+}
+.content {
+    font-size: 14px;
+    color: #909090;
+}
+.close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}

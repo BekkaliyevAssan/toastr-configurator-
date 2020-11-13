@@ -1,0 +1,81 @@
+<div class="wrapper" *ngIf="position == 'bottom-right'" [ngStyle]="{'bottom': '1rem', 'right': '1rem'}">
+    <div *ngFor="let t of toastList">
+        <app-toastr 
+        (onDatePicked)="onDelete($event)"
+        [content]="t"></app-toastr>
+    </div>
+</div>
+
+<div class="wrapper" *ngIf="position == 'bottom-left'" [ngStyle]="{'bottom': '1rem', 'left': '1rem'}">
+    <div *ngFor="let t of toastList">
+        <app-toastr 
+        (onDatePicked)="onDelete($event)"
+        [content]="t"></app-toastr>
+    </div>
+</div>
+
+<div class="wrapper" *ngIf="position == 'top-right'" [ngStyle]="{'top': '3rem', 'right': '1rem'}">
+    <div *ngFor="let t of toastList">
+        <app-toastr 
+        (onDatePicked)="onDelete($event)"
+        [content]="t"></app-toastr>
+    </div>
+</div>
+
+<div class="wrapper" *ngIf="position == 'top-left'" [ngStyle]="{'top': '3rem', 'left': '1rem'}">
+    <div *ngFor="let t of toastList">
+        <app-toastr 
+        (onDatePicked)="onDelete($event)"
+        [content]="t"></app-toastr>
+    </div>
+</div>
+
+<div class="wrapper-center" *ngIf="position == 'center'">
+    <div class="wrapper" >
+        <div *ngFor="let t of toastList">
+            <app-toastr 
+            (onDatePicked)="onDelete($event)"
+            [content]="t"></app-toastr>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper-left" *ngIf="position == 'left'">
+    <div class="wrapper" >
+        <div *ngFor="let t of toastList">
+            <app-toastr 
+            (onDatePicked)="onDelete($event)"
+            [content]="t"></app-toastr>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper-right" *ngIf="position == 'right'">
+    <div class="wrapper" >
+        <div *ngFor="let t of toastList">
+            <app-toastr 
+            (onDatePicked)="onDelete($event)"
+            [content]="t"></app-toastr>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper-top" *ngIf="position == 'top'">
+    <div class="wrapper" >
+        <div *ngFor="let t of toastList">
+            <app-toastr 
+            (onDatePicked)="onDelete($event)"
+            [content]="t"></app-toastr>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper-bottom" *ngIf="position == 'bottom'">
+    <div class="wrapper" >
+        <div *ngFor="let t of toastList">
+            <app-toastr 
+            (onDatePicked)="onDelete($event)"
+            [content]="t"></app-toastr>
+        </div>
+    </div>
+</div>

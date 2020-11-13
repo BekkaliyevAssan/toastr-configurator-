@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <div class="label" [ngStyle]="{'color' : (onFocus) ? 'blue' : 'black'}">{{label}}</div>
+    <input 
+    (focus)="onFocus = true" 
+    (blur)="onFocus = false" 
+    (input)="onInput($event.target.value)"
+    type="text"
+    #input>
+</div>
